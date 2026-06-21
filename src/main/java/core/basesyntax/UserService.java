@@ -13,6 +13,7 @@ public class UserService {
     }
 
     public void saveUser(User user) {
-        System.out.println("User " + user.getEmail() + " was saved to the database!");
-    } // <- ДУЖКА 1: закриває метод saveUser
-}     // <- ДУЖКА 2: закриває весь клас UserService
+        System.out.println("User " + user + " was saved to database!!!");
+    }
+
+}
